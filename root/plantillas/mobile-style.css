@@ -1,0 +1,185 @@
+/* 
+1. Posicionamiento
+2. Modelo de caja (box model)
+3. Tipografia
+4. Visuales
+5. Otros
+*/
+
+/* GLOBAL STYLES */
+
+:root {
+  /* Colores */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 62.5%;
+}
+
+.flex {
+  display: flex;
+}
+
+/* HEADER STYLES */
+
+header {
+  padding: 15% 10% 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* MAIN STYLES */
+
+main > section {
+  padding: 0% 5%;
+  justify-content: center;
+}
+
+section img {
+  width: 80%;
+}
+
+.title {
+  padding: 20% 0% 5%;
+  color: #232c50;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: -0.035em;
+}
+
+h2 {
+  padding: 20% 0% 5%;
+  color: #232c50;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: -0.035em;
+}
+
+p {
+  width: 80%;
+  color: #232c50;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: -0.035em;
+}
+
+h3 {
+  color: #232c50;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: -0.035em;
+}
+
+.btn {
+  border-radius: 50px;
+  width: 134px;
+  height: 44px;
+  background-color: #8b48bf;
+  color: #ffffff;
+}
+
+article {
+  background-color: #fafafa;
+}
+
+article img {
+  width: 20%;
+}
+
+/* FOOTER STYLES */
+
+footer {
+  flex-direction: column;
+  align-items: center;
+  background-color: #1e1e26;
+}
+
+.div-icons {
+    width: 100%;
+  justify-content: space-around;
+}
+
+.div-icons img {
+    /* width: 10%; */
+}
+
+li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    list-style: none;
+
+}
+
+/* ANIMACION BURGER-MENU */
+
+/* .burger-menu {
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+    background: transparent;
+    gap: .65rem;
+}
+
+.burger-menu > div {
+    background: black;
+    height: 2px;
+    width: 100%;
+    border-radius: 5px;
+    transition: all .5s;
+    transform-origin: left;
+}
+
+.burger-menu:hover div:first-child {
+    transform: rotate(45deg);
+}
+
+.burger-menu:hover div:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu:hover div:last-child {
+    transform: rotate(-45deg);
+} */
+
+.nav-bar {
+    display: none;
+}
+
+.btn-bar {
+    display: none;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1000px) {
+    header img:nth-child(2) {
+        display: none;
+    }
+
+    .nav-bar, .btn-bar {
+        display: block;
+    }
+}

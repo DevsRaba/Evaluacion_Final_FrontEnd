@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>manage</title>
-    <link rel="stylesheet" href="/root/css/main.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,45 +14,35 @@
     />
   </head>
   <body>
-    <!-- HEADER -->
     <header class="flex">
       <img src="/root/img/manage-logo.png" alt="manage-logo" />
-
-      <!-- MOBILE -->
-      <img src="/root/img/burger-menu.png" alt="menu" class="nav-burger" />
-
-      <!-- DESKTOP -->
-      <nav class="nav-bar">
+      <nav>
         <ul type="none" class="flex">
           <li><a href="#">Pricing</a></li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Community</a></li>
+          <li>Product</li>
+          <li>About Us</li>
+          <li>Careers</li>
+          <li>Community</li>
         </ul>
       </nav>
-      <button class="btn header-btn">Get Started</button>
+      <button class="btn-one">Get Started</button>
     </header>
-
-    <!-- MAIN -->
-    <main class="flex container-column">
-      <!-- CONTAINER 1 [TITULO + GRAFICO] -->
-      <section class="flex container-column">
-        <div class="flex container-column">
+    <main>
+      <section class="container-one flex">
+        <div>
           <h1>Bring everyone together to build better products.</h1>
           <p>
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the large team goals in view
           </p>
-          <button class="btn">Get Started</button>
+          <button class="btn-one">Get Started</button>
         </div>
-        <div class="flex container-column">
+        <div>
           <img src="/root/img/graphics.png" alt="graphics" class="graphic" />
         </div>
       </section>
 
-      <!-- CONTAINER 2 [PREGUNTA + NUMERALES] -->
-      <section class="flex container">
+      <section class="container-two flex">
         <div>
           <h2>What´s different about Manage?</h2>
           <p>
@@ -62,29 +52,22 @@
           </p>
         </div>
         <div>
-          <div class="flex">
-            <span class="btn">01</span>
-            <h3>Track company-wide progress</h3>
-          </div>
+          <button class="btn-one">01</button>
+          <h3>Track company-wide progress</h3>
           <p>
             See how your day-to-day tasks fit into the wider vision. Go from
             tracking progress at the milestone level all the way done to the
             smallest of details. Never lose sight of the bigger picture again.
           </p>
-
-          <div class="flex">
-            <span class="btn">02</span>
-            <h3>Advance built-in reports</h3>
-          </div>
+          <button class="btn-one">02</button>
+          <h3>Advance built-in reports</h3>
           <p>
             Set internal delivery estimates and track progress toward company
             goals. Our customisable dashboard helps you build out the reports
             you need to keep key stakeholders informed.
           </p>
-          <div class="flex">
-            <span class="btn">03</span>
-            <h3>Everything you need in one place</h3>
-          </div>
+          <button class="btn-one">03</button>
+          <h3>Everything you need in one place</h3>
           <p>
             Stop jumping from one service to another to communicate, store
             files, track tasks and share documents. Manage offers an all-in-one
@@ -93,12 +76,11 @@
         </div>
       </section>
 
-      <!-- CONTAINER 3 [CARDS]-->
-      <section class="flex container container-column">
+      <section class="container-three flex">
         <h2>What they´ve said</h2>
         <div class="articles flex">
-          <article class="flex container-column">
-            <img src="/root/img/avatar-anisha.png" alt="anisha" />
+          <article class="flex">
+            <img src="" alt="" />
             <h3>Ali Bravo</h3>
             <p>
               “Manage has supercharged our team´s workflow. The ability to
@@ -106,8 +88,8 @@
               everyone motivated.”
             </p>
           </article>
-          <article class="flex container-column">
-            <img src="/root/img/avatar-ali.png" alt="ali" />
+          <article class="flex">
+            <img src="" alt="" />
             <h3>Ali Bravo</h3>
             <p>
               “We have been able to cancel so many other subscriptions since
@@ -115,8 +97,8 @@
               everyone is much more focused.”
             </p>
           </article>
-          <article class="flex container-column">
-            <img src="/root/img/avatar-richard.png" alt="" />
+          <article class="flex">
+            <img src="" alt="" />
             <h3>Ali Bravo</h3>
             <p>
               “Manage allows us to provide structure and process. It keeps us
@@ -125,46 +107,40 @@
             </p>
           </article>
         </div>
-        <button class="btn">Get Started</button>
+        <button class="btn-one">Get Started</button>
       </section>
 
-      <!-- CONTAINER 4 [MORADO] -->
-      <section class="flex container-purple container-column">
+      <section class="container-four flex">
         <h2>Simplify hoy your team words today.</h2>
         <button class="btn-two">Get Started</button>
       </section>
     </main>
 
-    <!-- FOOTER -->
     <footer class="flex">
-      <div>
-        <img src="/root/img/manage-logo-two.png" alt="manage" />
+      <section class="flex">
         <div>
-          <img src="/root/img/icon-facebook.svg" alt="facebook" />
-          <img src="/root/img/icon-youtube.svg" alt="youtube" />
-          <img src="/root/img/icon-twitter.svg" alt="twitter" />
-          <img src="/root/img/icon-pinterest.svg" alt="pinterest" />
-          <img src="/root/img/icon-instagram.svg" alt="instagram" />
+          <img src="/root/img/manage-logo-two.png" alt="manage-logo" />
+          <img src="/root/img/media-logos.png" alt="media-logos" />
         </div>
-      </div>
-      <div>
-        <ul type="none">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Community</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-        </ul>
-      </div>
-      <div>
         <div>
-          <textarea name="" id=""></textarea>
-          <button class="btn">Go</button>
+          <h4>Home</h4>
+          <h4>Pricing</h4>
+          <h4>Products</h4>
+          <h4>About Us</h4>
         </div>
-        <p>Copyright 2020. All Rights Reserved</p>
-      </div>
+        <div>
+          <h4>Careers</h4>
+          <h4>Community</h4>
+          <h4>Privacy Policy</h4>
+        </div>
+        <div>
+          <div>
+            <textarea name="" id=""></textarea>
+            <button class="btn-one">Go</button>
+          </div>
+          <p>Copyright 2020. All Rights Reserved</p>
+        </div>
+      </section>
     </footer>
   </body>
 </html>
