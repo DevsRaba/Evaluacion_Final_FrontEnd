@@ -11,15 +11,15 @@
 :root {
   /* Colores */
   /* Primario */
-  --celeste-brillante: #3CDDF3;
-  --Violeta: #8b48bf;
-  --blanco: #FFFFFF;
+  --celeste-brillante: #3cddf3;
+  --violeta: #8b48bf;
+  --blanco: #ffffff;
   --negro: #000000;
 
-/* Neutro */
---azul-grisáceo-oscuro: #1E1E26;
---azul-muy-oscuro: #232851;
---variante-gris-claro: #8C8C94;
+  /* Neutro */
+  --azul-grisáceo-oscuro: #1e1e26;
+  --azul-muy-oscuro: #232851;
+  --variante-gris-claro: #8c8c94;
 }
 
 * {
@@ -43,218 +43,172 @@ footer {
   display: flex;
 }
 
-.container-column {
-  flex-direction: column;
-  align-items: center;
-}
-
-/* HEADER STYLES */
-header {
-  padding: 10% 10% 5%;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-/* MAIN STYLES */
-main section:nth-child(1) {
-    flex-direction: column-reverse;
-    align-items: center;
-    padding: 0% 5%;
-}
-
-section {
-    width: 90%;
-    margin: 10% 0%;
-}
-
-section img {
-  width: 100%;
-}
-
-
 .btn {
-    border-radius: 50px;
-    width: 134px;
-    height: 44px;
-    background-color: #8b48bf;
-  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  height: 50px;
+  width: 134px;
 }
 
-article {
-  background-color: #fafafa;
+/* HEADER */
+header {
+  align-items: center;
+  justify-content: space-between;
+  padding: 10% 7%;
 }
 
-article img {
-  width: 20%;
-}
-
-/* .title {
-  padding: 20% 0% 5%;
-  color: #232c50;
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 58px;
-  text-align: center;
-  font-style: normal;
-  letter-spacing: -0.035em;
-}
-
-h2 {
-  padding: 20% 0% 5%;
-  color: #232c50;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 58px;
-  text-align: center;
-  font-style: normal;
-  letter-spacing: -0.035em;
-}
-
-p {
-  width: 80%;
-  color: #232c50;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  text-align: center;
-  font-style: normal;
-  letter-spacing: -0.035em;
-}
-
-h3 {
-  color: #232c50;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  text-align: center;
-  font-style: normal;
-  letter-spacing: -0.035em;
-} */
-
-/* FOOTER STYLES */
-footer {
+/* MAIN */
+main {
   flex-direction: column;
   align-items: center;
-  background-color: #1e1e26;
 }
 
-.div-icons {
+/* SECTION ONE */
+.main-section-one {
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 25%;
+}
+
+.main-section-one div:nth-child(1) {
+  flex-direction: column;
+  align-items: center;
   width: 100%;
-  justify-content: space-around;
 }
 
-.div-icons img {
-  /* width: 10%; */
+.main-section-one div img {
+  width: 100%;
+  padding-bottom: 10%;
 }
 
-li {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  list-style: none;
+.main-section-one div h1 {
+  color: var(--azul-muy-oscuro);
+  font-size: 5rem;
+  font-weight: 700;
+  text-align: center;
 }
 
-/* ANIMACION BURGER-MENU */
-
-/* .burger-menu {
-      display: flex;
-      flex-direction: column;
-      width: 3rem;
-      height: 3rem;
-      border: 0;
-      background: transparent;
-      gap: .65rem;
-  }
-  
-  .burger-menu > div {
-      background: black;
-      height: 2px;
-      width: 100%;
-      border-radius: 5px;
-      transition: all .5s;
-      transform-origin: left;
-  }
-  
-  .burger-menu:hover div:first-child {
-      transform: rotate(45deg);
-  }
-  
-  .burger-menu:hover div:nth-child(2) {
-      opacity: 0;
-  }
-  
-  .burger-menu:hover div:last-child {
-      transform: rotate(-45deg);
-  } */
-
-.nav-bar {
-  display: none;
+.main-section-one div p {
+  color: var(--negro);
+  font-size: 1.5rem;
+  padding: 5% 10%;
+  text-align: center;
 }
 
-.btn-bar {
-  display: none;
+.main-section-one div button {
+  color: var(--blanco);
+  background-color: var(--violeta);
+  margin: 3% 0%;
 }
+
+/* SECTION TWO */
+.main-section-two {
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 25%;
+}
+
+.main-section-two-div-one {
+  margin-bottom: 15%;
+}
+
+.main-section-two-div-one h2 {
+  color: var(--azul-muy-oscuro);
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.main-section-two-div-one p {
+  color: var(--negro);
+  font-size: 1.5rem;
+  padding: 7% 10%;
+  text-align: center;
+}
+
+.main-section-two-div-two div {
+  align-items: center;
+  background-color: var(--violeta);
+  border-radius: 50px 0px 0px 50px;
+}
+
+.main-section-two-div-two div span {
+  align-self: center;
+  color: var(--blanco);
+  background-color: var(--violeta);
+  border: none;
+  border-radius: 50px;
+  height: 44px;
+  width: 60px;
+}
+
+.main-section-two-div-two p {
+  color: var(--variante-gris-claro);
+  font-size: 1.5rem;
+  padding: 7% 10%;
+  text-align: left;
+}
+
+/* SECTION THREE */
+.main-section-three {
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 25%;
+  width: 90%;
+}
+
+.main-section-three h2 {
+  color: var(--azul-muy-oscuro);
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20%;
+}
+
+.main-section-three article {
+  align-items: center;
+  background-color: rgba(255, 255, 0, 0.23);
+  flex-direction: column;
+  padding: 0% 5% 3%;
+  margin-bottom: 7%;
+}
+
+.main-section-three article img {
+  position: relative;
+  bottom: 15%;
+  width: 17%;
+}
+
+.main-section-three h3 {
+  color: var(--azul-muy-oscuro);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.main-section-three p {
+  color: var(--variante-gris-claro);
+  font-size: 1.5rem;
+  padding: 3% 7%;
+  text-align: center;
+}
+
+.main-section-three button {
+  color: var(--blanco);
+  background-color: var(--violeta);
+  margin: 3% 0%;
+}
+
 
 /* HIDDEN ELEMENTS */
-.nav-bar {
+
+.header-nav-bar,
+.header-btn,
+.article-one,
+.article-three
+ {
   display: none;
 }
 
-.header-btn {
-  display: none;
-}
-
-/* DESKTOP */
-/* MEDIA QUERIES */
-@media (min-width: 800px) {
-  /* GLOBAL STYLES */
-  .container-column {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav {
-    display: block;
-  }
-
-  .header-btn {
-    display: block;
-  }
-
-  .nav-burger {
-    display: none;
-  }
-
-  /* HEADER STYLES */
-
-  header {
-  }
-
-  /* MAIN STYLES */
-
-  .container {
-    margin: 3% 0%;
-    border: solid 1px red;
-    width: 80%;
-  }
-
-  .container-purple {
-    margin: 3% 0% 0%;
-    border: solid 1px red;
-    background-color: purple;
-    width: 100%;
-  }
-
-  div {
-    border: solid 1px blue;
-  }
-
-  /* FOOTER STYLES */
-
-  footer {
-    justify-content: space-between;
-    background-color: black;
-    padding: 2.5% 10%;
-  }
-}
