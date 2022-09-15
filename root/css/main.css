@@ -10,6 +10,16 @@
 /* GLOBAL STYLES */
 :root {
   /* Colores */
+  /* Primario */
+  --celeste-brillante: #3CDDF3;
+  --Violeta: #8b48bf;
+  --blanco: #FFFFFF;
+  --negro: #000000;
+
+/* Neutro */
+--azul-grisáceo-oscuro: #1E1E26;
+--azul-muy-oscuro: #232851;
+--variante-gris-claro: #8C8C94;
 }
 
 * {
@@ -19,8 +29,8 @@
 }
 
 html {
+  font-size: 62.5%;
   font-family: "Be Vietnam Pro", sans-serif;
-  font-size: 1rem;
 }
 
 header,
