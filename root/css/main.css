@@ -51,6 +51,10 @@ footer {
   font-weight: 500;
 }
 
+.btn:hover {
+  opacity: 75%;
+}
+
 /* HEADER */
 header {
   align-items: center;
@@ -112,6 +116,7 @@ main {
 }
 
 .main-section-two-div-one {
+  flex-direction: column;
   margin-bottom: 15%;
 }
 
@@ -178,7 +183,7 @@ main {
   margin-bottom: 20%;
 }
 
-.main-section-three article {
+.main-section-three div article {
   align-items: center;
   background-color: #FAFAFA;
   flex-direction: column;
@@ -186,19 +191,20 @@ main {
   margin-bottom: 7%;
 }
 
-.main-section-three article img {
+.main-section-three div article img {
   position: relative;
   bottom: 15%;
   width: 18%;
 }
 
-.main-section-three h3 {
+
+.main-section-three div article h3 {
   color: var(--azul-muy-oscuro);
   font-size: 1.5rem;
   text-align: center;
 }
 
-.main-section-three p {
+.main-section-three div article p {
   color: #B3B2B7;
   font-size: 1.5rem;
   line-height: 2.5rem;
@@ -213,7 +219,6 @@ main {
 }
 
 /* SECTION FOUR */
-
 .main-section-four {
   align-items: center;
   background-color: var(--violeta);
@@ -256,9 +261,21 @@ footer {
   justify-content: center;
 }
 
-.footer-div-three div textarea {
+/* .footer-div-three div textarea {
   border-radius: 50px;
   width: 70%;
+  color: #B3B2B7;
+  text-align: left;
+  text-indent: 10px;
+} */
+
+.footer-div-three div form {
+  width: 75%;
+}
+
+.footer-div-three div form input {
+  border-radius: 50px;
+  width: 100%;
   color: #B3B2B7;
   text-align: left;
   text-indent: 10px;
@@ -314,7 +331,7 @@ footer p {
   font-weight: 500;
   font-size: 1.2rem;
   position: relative;
-  top: 450px;
+  top: 410px;
 }
 
 /* HIDDEN ELEMENTS */

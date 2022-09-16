@@ -55,7 +55,7 @@ header {
 .main-section-one {
   flex-direction: row;
   width: 80%;
-  margin: 3% 0%;
+  margin: 3% 0% 8%;
 }
 
 .main-section-one div:nth-child(1) {
@@ -81,12 +81,128 @@ header {
 
 
 /* SECTION TWO */
+.main-section-two {
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content: flex-start;
+  width: 80%;
+  margin-bottom: 7%;
+}
+
+.main-section-two-div-one {
+  width: 50%;
+  margin-bottom: 0%;
+  padding-right: 10%;
+}
+
+.main-section-two-div-one h2 {
+  text-align: left;
+}
+
+.main-section-two-div-one p {
+  padding: 7% 30% 7% 0%;
+  text-align: left;
+}
+
+.main-section-two-div-two {
+  width: 50%;
+}
+
+.main-section-two-div-two div {
+  background-color:transparent;
+}
+
+.main-section-two-div-two div span {
+  padding: 2.5% 5%;
+}
+
+.main-section-two-div-two p {
+  padding: 2% 9% 6% 17%;
+}
 
 /* SECTION THREE */
+.main-section-three {
+  margin-bottom: 10%;
+}
+
+.main-section-three h2 {
+  margin-bottom: 8%;
+}
+
+.main-section-three div article {
+  padding: 0% 2% 3%;
+  margin-bottom: 1%;
+}
+
+.main-section-three div article p {
+  padding: 3% 4%;
+}
+
 
 /* SECTION FOUR */
+.main-section-four {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5% 10%;
+}
+
+.main-section-four h2 {
+  width: 45%;
+  text-align: left;
+  padding: 0%;
+  margin-bottom: 0%;
+
+}
+
+.main-section-four button {
+  color: var(--violeta);
+}
 
 /* FOOTER */
+footer {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5% 10% 3%;
+}
+
+.footer-div-one {
+  flex-direction: column;
+  width: 13.85%;
+  height: 150px;
+  padding: 0%;
+}
+
+.footer-div-two {
+  height: 180px;
+  width: 50%;
+  padding: 0%;
+  justify-content: right;
+  margin-left: 7%;
+}
+
+.footer-div-two ul {
+  width: 90%;
+  height: 100%;
+  justify-content: right;
+}
+
+.footer-div-two ul li {
+  width: 40%;
+}
+
+.footer-div-three {
+  align-items: right;
+  justify-content: space-between;
+  width: 35%;
+  height: 160px;
+}
+
+footer p {
+  position: static;
+  width: 100%;
+  text-align: right;
+}
+
 
 /* HIDDEN ELEMENTS */
 .header-nav-burger {
