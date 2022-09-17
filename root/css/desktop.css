@@ -15,10 +15,13 @@
 }
 
 .header-nav-bar,
-.header-btn,
+.header-btn {
+  display: block;
+}
+
 .article-one,
 .article-three {
-  display: block;
+  display: flex;
 }
 
 .btn {
@@ -36,12 +39,16 @@ header {
 
 .header-nav-ul {
   justify-content: space-between;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .header-nav-ul li a {
   color: var(--azul-muy-oscuro);
   text-decoration: none;
+}
+
+.header-nav-bar li a:hover {
+  opacity: 70%;
 }
 
 .header-btn {
@@ -68,22 +75,19 @@ header {
 }
 
 .main-section-one div h1 {
-    text-align: left;
-  }
-  
-  .main-section-one div p {
-    padding: 5% 40% 5% 0%;
-    text-align:left;
-  }
-  
+  font-size: 3.5rem;
+  text-align: left;
+}
 
-
-
+.main-section-one div p {
+  padding: 5% 40% 5% 0%;
+  text-align: left;
+}
 
 /* SECTION TWO */
 .main-section-two {
   flex-direction: row;
-  align-items:flex-start;
+  align-items: flex-start;
   justify-content: flex-start;
   width: 80%;
   margin-bottom: 7%;
@@ -109,20 +113,20 @@ header {
 }
 
 .main-section-two-div-two div {
-  background-color:transparent;
+  background-color: transparent;
 }
 
 .main-section-two-div-two div span {
-  padding: 2.5% 5%;
+  padding: 2% 5%;
 }
 
 .main-section-two-div-two p {
-  padding: 2% 9% 6% 17%;
+  padding: 2% 9% 6% 18%;
 }
 
 /* SECTION THREE */
 .main-section-three {
-  margin-bottom: 10%;
+  margin-bottom: 8%;
 }
 
 .main-section-three h2 {
@@ -130,14 +134,13 @@ header {
 }
 
 .main-section-three div article {
-  padding: 0% 2% 3%;
+  padding: 4% 2% 2%;
   margin-bottom: 1%;
 }
 
 .main-section-three div article p {
-  padding: 3% 4%;
+  padding: 3% 0%;
 }
-
 
 /* SECTION FOUR */
 .main-section-four {
@@ -151,7 +154,6 @@ header {
   text-align: left;
   padding: 0%;
   margin-bottom: 0%;
-
 }
 
 .main-section-four button {
@@ -168,7 +170,7 @@ footer {
 .footer-div-one {
   flex-direction: column;
   width: 13.85%;
-  height: 150px;
+  height: 120px;
   padding: 0%;
 }
 
@@ -181,7 +183,7 @@ footer {
 }
 
 .footer-div-two ul {
-  height: 80%;
+  height: 90%;
   justify-content: right;
 }
 
@@ -195,13 +197,15 @@ footer {
   width: 35%;
   height: 160px;
 }
+.footer-div-three div {
+  justify-content: right;
+}
 
 footer p {
   position: static;
   width: 100%;
   text-align: right;
 }
-
 
 /* HIDDEN ELEMENTS */
 .header-nav-burger {

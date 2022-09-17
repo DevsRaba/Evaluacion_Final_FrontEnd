@@ -187,19 +187,19 @@ main {
 }
 
 .main-section-three div article {
+  position: relative;
   align-items: center;
   background-color: #FAFAFA;
   flex-direction: column;
-  padding: 0% 5% 3%;
+  padding: 15% 5% 5%;
   margin-bottom: 7%;
 }
 
 .main-section-three div article img {
-  position: relative;
-  bottom: 15%;
-  width: 18%;
+  position: absolute;
+  bottom: 85%;
+  width: 80px;
 }
-
 
 .main-section-three div article h3 {
   color: var(--azul-muy-oscuro);
@@ -235,7 +235,7 @@ main {
   color: var(--blanco);
   font-size: 2.3rem;
   text-align: center;
-  padding: 0% 14.5%;
+  padding: 0% 16%;
   margin-bottom: 10%;
 
 }
